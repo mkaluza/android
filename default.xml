@@ -508,4 +508,12 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+
+
+<!-- Janice -->
+
+<project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
+
+<project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
+
 </manifest>
